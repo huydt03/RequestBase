@@ -1,0 +1,26 @@
+{
+  "name": "@drhuy/request-base",
+  "version": "1.0.1",
+  "description": "http request base {get,post}",
+  "main": "RequestBase.js",
+  "scripts": {
+    "test": "const {get,post} = require('@drhuy/request-base')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huydt03/RequestBase.git"
+  },
+  "keywords": [
+    "javascript",
+    "request-base"
+  ],
+  "author": "drhuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huydt03/RequestBase/issues"
+  },
+  "homepage": "https://github.com/huydt03/RequestBase#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
